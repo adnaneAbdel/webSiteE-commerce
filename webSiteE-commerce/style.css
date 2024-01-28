@@ -1,0 +1,421 @@
+
+
+
+/* start section navber */
+.firstLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: 2px;
+}
+
+nav{
+  
+}
+
+@media (max-width:"991px") {
+    
+}
+#myName{
+    display: none;
+}
+
+@media (max-width:767px) {
+    .firstLogo{
+      display: none;
+    }
+    #myName{
+        display: block;
+        font-size: larger;
+        font-family: system-ui;
+        text-transform: capitalize;
+        font-weight: bold;
+        position: relative;
+      
+    }
+}
+#outline{
+    outline: none;
+}
+#cardShoping,#iconLogin,#iconSupprt{
+    margin: 0 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+#iconSearch{
+    position: relative;
+    top: 11px;
+    right: 115px;
+    color: #808080ad;
+    cursor: pointer;
+}
+#searchIpute{
+    width: 425px;
+    position: relative;
+    right: 75px;
+}
+.number{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    color: red;
+    position: relative;
+    right: 15px;
+    top: -14px;
+    font-weight: bold;
+}
+/* end section navber */
+/* start section intro and img */
+.sectionIntroAndImg{
+    position: relative;
+    top: 75px;
+}
+.reduis{
+    border-radius: 15px;
+}
+.textIntro{
+    font-family: system-ui;
+
+
+}
+.h1Title{
+    color: #00BCD4;
+}
+.introduction{
+    line-height: 2.2;
+    text-transform: capitalize;
+    width: 435px;
+    color: gray;
+}
+.sectionFeauters{
+    font-size: 60px;
+    margin: 35px 0;
+    position: relative;
+    color: #00BCD4;
+    padding: 20px;
+    font-family: system-ui;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+}
+.p-5{
+    padding: 5px;
+}
+.m-5{
+    margin: 0 2px;
+}
+#starIcons{
+  color: yellow;
+ 
+  border-radius: 5px;
+}
+#starIcons2{
+    color: rgb(176, 163, 163);
+  
+    border-radius: 5px;
+  }
+  .priece{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+  }
+  .dollor{
+    color: gray;
+    font-size: 35px;
+    position: relative;
+    top: -12px;
+    left: -9px;
+  }
+  .proviuePrace{
+    font-weight: bold;
+    font-size: 17px;
+    color: gray;
+    text-decoration: line-through;
+    position: relative;
+    top: -10px;
+    left: -14px;
+  }
+  .starForPorducts{
+    margin: 5px;
+    position: relative;
+    top: -14px;
+  }
+  .buyBtn{
+    font-family: system-ui;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: transparent;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px 10px;
+  }
+  
+ 
+  .buyAddCard{
+    font-family: system-ui;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: transparent;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px 10px;
+  }
+    .buyBtn:hover{
+        background-color: rgb(78, 150, 78);
+        color: white;
+
+    }
+    .buyAddCard:hover{
+        background-color: #00BCD4;
+        color: white;
+        
+    }
+
+  #baGround{
+        /* width: 274.5px; */
+    /* margin: 0 5px; */
+    padding: 0.5rem 1rem;
+    margin-bottom: 25px;
+    box-shadow: 0px 5px 5px #ccc;
+    background-color: whitesmoke;
+  
+    border-radius: 5px;
+  }
+  #baGround1{
+    /* width: 274.5px; */
+/* margin: 0 5px; */
+padding: 0.5rem 1rem;
+margin-bottom: 25px;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.194);
+background-color: white;
+
+border-radius: 5px;
+}
+  .btnAddCard{
+    display: flex;
+
+  }
+/*  end section intro and imgr */
+
+.backgroundImge{
+  background-image: url(images/forrest-moreland-vdSufXuwK-s-unsplash.jpg);
+  background-repeat: no-repeat;
+
+  height: 300px;
+  position: relative;
+  top: 50px;
+  padding:20px;
+
+ 
+
+}
+.titleForForme{
+  color: white;
+  font-family: system-ui;
+  text-transform: capitalize;
+  margin: 30px 0px;
+}
+.iptDiv{
+align-items: center;
+}
+.firstInput{
+  width: 500px;
+  height: 50px;
+  font-size: large;
+  position: relative;
+ 
+  border: 1px solid #00BCD4;
+  border-radius: 50px;
+outline: #00BCD4;
+
+}
+.btnDiv{
+  padding: 10px;
+  height: 50px;
+  font-size: large;
+  position: relative;
+ 
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin: 0 9px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+  background: #00BCD4;
+  border-color: #00BCD4;
+}
+#otherContaienr{
+  position: relative;
+  top: 50px;
+}
+#SectionForSelling{
+  position: relative;
+  top: 100px;
+}
+.prog{
+      width: 100%;
+    height: 30px;
+    background: #d3d1d1;
+    margin: 10px;
+}
+.label{
+  font-size: large;
+    font-weight: bold;
+    margin: 0 10px;
+    position: relative;
+    top: 5px;
+}
+.titleForselling{
+  position: relative;
+    font-size: 40px;
+    font-family: system-ui;
+    margin: 20px 10px;
+}
+#imgDescount{
+      border-radius: 5px;
+      width: 500px;
+    height: 360px;
+    margin: 38px 20px;
+}
+.widthTop,.widthTop1,.widthTop2,.widthTop3{
+      height: 30px;
+    width: 0;
+    display: block;
+    transition: width 0.3s linear;
+    background: #00BCD4;
+}
+
+
+.first-box,.second-box,.thrthy-box,.four-box{
+      background: whitesmoke;
+    width: 200px;
+    height: 150px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+}
+#iconsForBoxRivews{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 15px 0;
+  color: #00BCD4;
+}
+.number1{
+  font-weight: bold;
+  font-size: 25px;
+}
+.titleForNumber{
+  font-size: large;
+    font-family: system-ui;
+    color: gray;
+}
+.box-for-numbers{
+  position: relative;
+  top: 0px;
+}
+.goDwon{
+  position: relative;
+ 
+ 
+  position: relative;
+  margin: 0 276px;
+}
+.topAll{
+  position: relative;
+  top: 100px;
+}
+
+.backForFooter{
+  background-color: rgb(53, 49, 49);
+  position:relative;
+  height: 150px;
+  top: 400px;
+}
+.adnaneEnd{
+  text-align: center;
+  position: relative;
+  top: 110px;
+  color: rgba(255, 255, 255, 0.271);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+}
+#heartAdn{
+  width: 20px;
+  height: 20px;
+  color: red ;
+  text-align: center;
+}
+/* //css for cardShop html page */
+.titleForAcrticls{
+  text-align: center;
+  margin: 30px 0;
+  text-transform: capitalize;
+  font-family: system-ui;
+  color: #00BCD4;
+}
+.table{
+  position: relative;
+  top: 50px;
+  border-radius: 5px;
+}
+#bodyForTable{
+  background-color: whitesmoke;
+}
+#reomiveIcos{
+  cursor: pointer;
+  
+  }
+#reomiveIcos:hover{
+color: red;
+
+}
+.table2{
+  width: 400px;
+  float: right;
+  border-radius: 5px;
+}
+#textTotal{
+  font-size: large;
+  font-family: system-ui;
+  font-weight: bold;
+  position: rl;
+  position: relative;
+  
+
+}
+#total{
+  font-weight: bold;
+    color: red;
+    font-size: large;
+    font-family: system-ui;
+}
+#btn{
+  position: relative;
+  top: 36vh;
+  padding: 12px 20px;
+  font-size: large;
+  text-transform: capitalize;
+  font-family: system-ui;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  left: 132vh;
+  margin: 5px;
+  background-color: #00BCD4;
+  font-weight: bold;
+  color: white;
+}
+.backForFooter{
+  position: relative;
+  text-align: center;
+
+}
+
+/* //end the css for cardShop.html */

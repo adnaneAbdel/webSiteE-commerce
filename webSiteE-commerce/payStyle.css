@@ -1,0 +1,66 @@
+#navBlack{
+    padding: 20px;
+}
+body{
+    background-color: whitesmoke;
+}
+#rowForFormPay{
+    position: relative;
+    top: 20vh;
+    width: 500px;
+    box-shadow: 10px 5px 5px #ccc;
+    /* align-items: center; */
+    left: 300px;
+    border: 1px solid #ccc;
+    padding: 20px ; 
+    border-radius: 5px;
+}
+#user{
+    font-size: large;
+    text-transform: capitalize;
+    margin: 7px 0;
+    font-weight: bold;
+    color: #808080a3;
+}
+#btnForPay{
+    position: relative;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: large;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background: cadetblue;
+    color: white;
+    left: 160px;
+}
+#title{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px 0;
+    color: cadetblue;
+    text-decoration: underline;
+}
+/* //this secton for choose the methode pay */
+
+#rowForChosePay{
+    left: 300px;
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #ccc;
+    top: 20vh;
+}
+#imgChose{
+    width: 300px;
+    height: 115px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+/* //End for choose the methode pay */
